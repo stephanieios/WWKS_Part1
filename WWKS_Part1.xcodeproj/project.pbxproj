@@ -13,6 +13,7 @@
 		90044C1025A3C63800F2EDF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90044C0E25A3C63800F2EDF8 /* Main.storyboard */; };
 		90044C1225A3C64000F2EDF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90044C1125A3C64000F2EDF8 /* Assets.xcassets */; };
 		90044C1525A3C64000F2EDF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90044C1325A3C64000F2EDF8 /* LaunchScreen.storyboard */; };
+		90044C1E25AA91F000F2EDF8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90044C1D25AA91EF00F2EDF8 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		90044C1125A3C64000F2EDF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90044C1425A3C64000F2EDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90044C1625A3C64000F2EDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90044C1D25AA91EF00F2EDF8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				90044C0825A3C63800F2EDF8 /* AppDelegate.swift */,
 				90044C0A25A3C63800F2EDF8 /* SceneDelegate.swift */,
 				90044C0C25A3C63800F2EDF8 /* ViewController.swift */,
+				90044C1D25AA91EF00F2EDF8 /* Extension.swift */,
 				90044C0E25A3C63800F2EDF8 /* Main.storyboard */,
 				90044C1125A3C64000F2EDF8 /* Assets.xcassets */,
 				90044C1325A3C64000F2EDF8 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				90044C0D25A3C63800F2EDF8 /* ViewController.swift in Sources */,
 				90044C0925A3C63800F2EDF8 /* AppDelegate.swift in Sources */,
 				90044C0B25A3C63800F2EDF8 /* SceneDelegate.swift in Sources */,
+				90044C1E25AA91F000F2EDF8 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
