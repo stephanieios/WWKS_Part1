@@ -26,6 +26,7 @@
 		90044C1425A3C64000F2EDF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90044C1625A3C64000F2EDF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90044C1D25AA91EF00F2EDF8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9026628D25BCA2A30025133C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		90044BFC25A3C63800F2EDF8 = {
 			isa = PBXGroup;
 			children = (
+				9026628D25BCA2A30025133C /* README.md */,
 				90044C0725A3C63800F2EDF8 /* WWKS_Part1 */,
 				90044C0625A3C63800F2EDF8 /* Products */,
 			);
@@ -58,11 +60,11 @@
 		90044C0725A3C63800F2EDF8 /* WWKS_Part1 */ = {
 			isa = PBXGroup;
 			children = (
+				90044C0E25A3C63800F2EDF8 /* Main.storyboard */,
 				90044C0825A3C63800F2EDF8 /* AppDelegate.swift */,
 				90044C0A25A3C63800F2EDF8 /* SceneDelegate.swift */,
 				90044C0C25A3C63800F2EDF8 /* ViewController.swift */,
 				90044C1D25AA91EF00F2EDF8 /* Extension.swift */,
-				90044C0E25A3C63800F2EDF8 /* Main.storyboard */,
 				90044C1125A3C64000F2EDF8 /* Assets.xcassets */,
 				90044C1325A3C64000F2EDF8 /* LaunchScreen.storyboard */,
 				90044C1625A3C64000F2EDF8 /* Info.plist */,
@@ -300,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stephaniechiu.WWKS-Part1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stephaniechiu.WWKS-Part1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
